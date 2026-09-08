@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stefan Iordache | Senior Application Manager</title>
+<meta name="description" content="Stefan Iordache – Senior Application Manager mit über 20 Jahren Erfahrung im Betrieb geschäftskritischer Enterprise-Anwendungen. Application Operations, Middleware, Kubernetes, AWS. Nürnberg.">
+<meta name="keywords" content="Stefan Iordache, Application Manager, Application Operations, Middleware, WebSphere, IBM MQ, DB2, Kubernetes, AWS, Azure, Terraform, DevOps, Nürnberg">
+<meta property="og:title" content="Stefan Iordache | Senior Application Manager">
+<meta property="og:description" content="Über 20 Jahre Betrieb geschäftskritischer Enterprise-Anwendungen in regulierten Branchen.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#12203A;
+  --ink-soft:#5B6A82;
+  --paper:#FFFFFF;
+  --mist:#EEF1F6;
+  --red:#C8102E;
+  --red-dk:#8E0B20;
+  --navy:#1B3A6B;
+  --navy-dk:#0E2444;
+  --green:#0F7B4F;
+  --green-lt:#17A366;
+  --rule:#D7DEE8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:17px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1060px;margin:0 auto;padding:0 28px}
+a{color:var(--red)}
+h1,h2,h3{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;line-height:1.1;margin:0}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+nav .wrap{display:flex;align-items:center;gap:22px;height:60px;flex-wrap:wrap}
+nav .me{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.01em}
+nav a{color:var(--ink-soft);text-decoration:none;font-size:15px}
+nav a:hover,nav a:focus{color:var(--red)}
+nav .sp{margin-left:auto}
+@media(max-width:700px){nav{position:static}nav .wrap{height:auto;padding-top:12px;padding-bottom:12px;gap:14px}nav .sp{margin-left:0}}
+
+/* ---------- hero ---------- */
+header{padding:70px 0 0}
+.hgrid{display:grid;grid-template-columns:1fr 210px;gap:44px;align-items:start}
+@media(max-width:760px){.hgrid{grid-template-columns:1fr;gap:28px}}
+h1{font-size:clamp(2.6rem,6vw,4.1rem);letter-spacing:-.035em}
+.role{font-family:"Space Grotesk";font-weight:500;font-size:clamp(1.05rem,2.4vw,1.35rem);color:var(--navy);margin:10px 0 0}
+.where{color:var(--ink-soft);margin:14px 0 0;font-size:15.5px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:0;list-style:none}
+.chips li{font-size:13.5px;padding:5px 11px;border-radius:100px;background:var(--mist);color:var(--ink-soft);font-weight:500}
+.chips li.hot{background:var(--green);color:#fff}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:15px;padding:11px 18px;border-radius:8px;border:1.5px solid var(--ink);color:var(--ink)}
+.btn.solid{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn:hover{border-color:var(--red);color:var(--red)}
+.btn.solid:hover{background:var(--red);border-color:var(--red);color:#fff}
+.photo{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;background:var(--mist)}
+@media(max-width:760px){.photo{max-width:180px}}
+
+/* ---------- career band ---------- */
+.band-block{margin:64px 0 0;padding:0 0 72px}
+.band-h{display:flex;justify-content:space-between;align-items:baseline;font-size:13.5px;color:var(--ink-soft);margin:0 0 9px}
+.band{display:flex;height:52px;border-radius:7px;overflow:hidden}
+.seg{position:relative;min-width:3px}
+.seg span{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:11.5px;font-weight:600;color:#fff;letter-spacing:.01em;
+  overflow:hidden;white-space:nowrap;padding:0 4px;
+}
+.band-l{display:flex;justify-content:space-between;font-size:12.5px;color:var(--ink-soft);margin:9px 0 0}
+.band-note{margin:16px 0 0;font-size:15px;color:var(--ink-soft);max-width:62ch}
+@media(max-width:760px){.band{height:38px}.seg span{font-size:0}}
+
+/* ---------- sections ---------- */
+section{padding:64px 0;border-top:1px solid var(--rule)}
+h2{font-size:clamp(1.5rem,3.4vw,2rem);letter-spacing:-.025em;margin:0 0 26px}
+.lede{max-width:68ch;font-size:17.5px}
+.lede p{margin:0 0 18px}
+.lede strong{font-weight:600}
+
+/* ---------- skills ---------- */
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+.sk{background:#fff;padding:20px 22px}
+.sk h3{font-size:15px;font-weight:700;margin:0 0 10px;display:flex;align-items:center;gap:9px}
+.dot{width:9px;height:9px;border-radius:3px;flex:none}
+.sk p{margin:0;font-size:15px;color:var(--ink-soft);line-height:1.55}
+
+/* ---------- timeline ---------- */
+.tl{position:relative;padding-left:26px}
+.tl:before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--rule)}
+.job{position:relative;padding:0 0 34px}
+.job:last-child{padding-bottom:0}
+.job:before{content:"";position:absolute;left:-25px;top:8px;width:12px;height:12px;border-radius:4px;background:var(--navy);border:2px solid #fff}
+.job:first-child:before{background:var(--red)}
+.job .yr{font-size:13.5px;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.job h3{font-size:18px;margin:2px 0 1px;letter-spacing:-.01em}
+.job .emp{font-size:15px;color:var(--ink-soft);font-style:italic;margin:0 0 9px}
+.job ul{margin:0;padding-left:18px}
+.job li{margin:0 0 5px;font-size:15.5px}
+.job p.sum{margin:0 0 9px;font-size:15.5px}
+
+/* ---------- certs ---------- */
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.cert{border:1px solid var(--rule);border-left:4px solid var(--green);border-radius:8px;padding:15px 17px}
+.cert.aws{border-left-color:var(--green-lt)}
+.cert.net{border-left-color:var(--navy)}
+.cert.state{border-left-color:var(--navy)}
+.cert b{display:block;font-size:15.5px;font-weight:600}
+.cert span{font-size:13.5px;color:var(--ink-soft)}
+.courses{margin:22px 0 0;padding:0;list-style:none;columns:2;column-gap:34px}
+.courses li{font-size:15px;color:var(--ink-soft);margin:0 0 6px;break-inside:avoid}
+@media(max-width:620px){.courses{columns:1}}
+
+/* ---------- langs + contact ---------- */
+.langs{display:flex;gap:34px;flex-wrap:wrap;padding:0;margin:0;list-style:none}
+.langs b{font-family:"Space Grotesk";font-size:19px;display:block}
+.langs span{font-size:14.5px;color:var(--ink-soft)}
+.ct{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;margin:0 0 26px}
+.ct div span{display:block;font-size:13px;color:var(--ink-soft);margin:0 0 2px}
+.ct div a,.ct div b{font-size:16px;font-weight:600;color:var(--ink);text-decoration:none;word-break:break-word}
+.ct div a:hover{color:var(--red)}
+footer{border-top:1px solid var(--rule);padding:26px 0 46px;font-size:14px;color:var(--ink-soft)}
+:focus-visible{outline:3px solid var(--red);outline-offset:2px;border-radius:3px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <span class="me">Stefan Iordache</span>
+  <a href="#profil">Profil</a>
+  <a href="#kompetenzen">Kompetenzen</a>
+  <a href="#werdegang">Werdegang</a>
+  <a href="#zertifikate">Zertifikate</a>
+  <a href="#kontakt" class="sp">Kontakt</a>
+</div></nav>
+
+<header><div class="wrap">
+  <div class="hgrid">
+    <div>
+      <h1>Stefan Iordache</h1>
+      <p class="role">Senior Application Manager · Application Operations &amp; Cloud Transformation</p>
+      <p class="where">Nürnberg · Betrieb geschäftskritischer Enterprise-Anwendungen seit 2000</p>
+      <ul class="chips">
+        <li class="hot">Cloud Business Expert IHK</li>
+        <li class="hot">IT-Administrator IHK</li>
+        <li>WebSphere</li><li>IBM MQ</li><li>DB2</li><li>Linux &amp; AIX</li>
+        <li>Kubernetes</li><li>Azure</li><li>AWS</li><li>Terraform</li>
+      </ul>
+      <div class="actions">
+        <a class="btn solid" href="Lebenslauf_Stefan_Iordache.pdf">Lebenslauf (PDF)</a>
+        <a class="btn" href="mailto:s.iordache@gmail.com">E-Mail schreiben</a>
+        <a class="btn" href="https://www.linkedin.com/in/stefan-iordache-32b3a621/">LinkedIn</a>
+        <a class="btn" href="https://www.xing.com/profile/Stefan_Iordache04507">Xing</a>
+      </div>
+    </div>
+    <img class="photo" src="profile-photo.jpg" alt="Stefan Iordache">
+  </div>
+
+  <div class="band-block">
+    <div class="band-h"><span>Beruflicher Verlauf</span><span>2000 – 2026</span></div>
+    <div class="band" role="img" aria-label="Durchgehender beruflicher Verlauf von 2000 bis 2026">
+      <div class="seg" style="flex:3.25;background:#AEBBCF"><span style="color:#12203A">Haarmann München</span></div>
+      <div class="seg" style="flex:1.9;background:#8B9DB8"><span style="color:#12203A">Bukarest</span></div>
+      <div class="seg" style="flex:1.5;background:#6580A4"><span>Biris Goran</span></div>
+      <div class="seg" style="flex:7.75;background:var(--navy)"><span>STIMI · eigenes Unternehmen</span></div>
+      <div class="seg" style="flex:4.25;background:var(--navy-dk)"><span>IBM</span></div>
+      <div class="seg" style="flex:1.8;background:#4A2036"><span>BMW / CGF</span></div>
+      <div class="seg" style="flex:1.45;background:var(--red-dk)"><span>Ratiodata</span></div>
+      <div class="seg" style="flex:3.15;background:var(--red)"><span>Evonik</span></div>
+      <div class="seg" style="flex:.7;background:var(--green)"><span>IHK</span></div>
+      </div>
+    <div class="band-l"><span>2000</span><span>2008</span><span>2015</span><span>2022</span><span>2026</span></div>
+    <p class="band-note">Chemie, Banken, Versicherungen, Automotive — durchgehend in regulierten Umgebungen, in denen Ausfälle teuer werden.</p>
+  </div>
+</div></header>
+
+<section id="profil"><div class="wrap">
+  <h2>Profil</h2>
+  <div class="lede">
+    <p>Ich betreue Anwendungen dort, wo sie laufen müssen: <strong>WebSphere, Tomcat, IBM MQ, DB2, Linux und AIX</strong> in regulierten Branchen. Über zwanzig Jahre Verantwortung für Verfügbarkeit, Security-Patching und Compliance über den gesamten Lebenszyklus — vom Incident bis zur Root-Cause-Analyse, von der Betriebsübernahme bis zur Steuerung externer Dienstleister.</p>
+    <p>Genau diese gewachsenen Landschaften stehen heute vor der Modernisierung. Bei <strong>Evonik</strong> habe ich diesen Weg mitgestaltet: Bewertung des Anwendungsportfolios nach dem 6R-Modell gemeinsam mit Application Ownern und Fachbereichen, anschließend Migration refaktorierter Java-Anwendungen nach Azure Kubernetes Service und auf die unternehmenseigene Kubernetes-Plattform.</p>
+    <p>2026 habe ich eine Weiterbildung in <strong>DevOps und AWS Cloud</strong> abgeschlossen — mit zwei IHK-Abschlüssen und Schwerpunkt auf Infrastructure as Code mit Terraform sowie CI/CD-Pipelines mit GitHub Actions. Die AWS-Zertifizierung zum Cloud Practitioner bereite ich derzeit vor.</p>
+  </div>
+</div></section>
+
+<section id="kompetenzen"><div class="wrap">
+  <h2>Technische Kompetenzen</h2>
+  <div class="skills">
+    <div class="sk"><h3><i class="dot" style="background:var(--navy)"></i>Cloud</h3><p>AWS (Compute, Storage, Datenbanken, Netzwerke), Microsoft Azure, Cloud-Migration nach dem 6R-Modell, Skalierung und Hochverfügbarkeit</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--red)"></i>Container &amp; Orchestrierung</h3><p>Docker, Kubernetes (AKS, Amazon EKS, On-Premises), Deployment über Helm-Charts, Rancher, Ressourcenkonfiguration für containerisierte Java-Anwendungen</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--green)"></i>Automatisierung &amp; IaC</h3><p>Terraform, Ansible, CI/CD mit GitHub Actions, Jenkins, Azure DevOps</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--navy)"></i>Middleware &amp; Application Server</h3><p>IBM WebSphere Application Server, Payara, WildFly, Java-EE-Anwendungsbetrieb, Performance-Analyse und Tuning</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--red)"></i>Messaging &amp; Integration</h3><p>IBM MQ, IBM Integration Bus, JMS, ActiveMQ, RabbitMQ, MQTT, REST- und SOAP-Schnittstellen</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--green)"></i>Betriebssysteme &amp; Web</h3><p>Linux, AIX, Windows Server · Nginx, Apache HTTP Server, HAProxy, Apache Tomcat, IIS, Load Balancing, SSL/TLS</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--navy)"></i>Datenbanken</h3><p>Relational: IBM DB2, Oracle, PostgreSQL · In-Memory: Redis · Backup und Restore, Hochverfügbarkeit, Migrationen</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--red)"></i>Monitoring &amp; Alerting</h3><p>Prometheus, Grafana, Checkmk, Zabbix, Nagios</p></div>
+    <div class="sk"><h3><i class="dot" style="background:var(--green)"></i>IT-Betrieb</h3><p>Incident-, Problem- und Change-Management (L1–L3), Eskalationssteuerung, Root-Cause-Analyse, Log-Analyse, Kapazitätsüberwachung, Patch- und Release-Management, Disaster Recovery, 24/7-Rufbereitschaft</p></div>
+  </div>
+</div></section>
+
+<section id="werdegang"><div class="wrap">
+  <h2>Beruflicher Werdegang</h2>
+  <div class="tl">
+
+    <div class="job">
+      <div class="yr">10/2022 – 11/2025</div>
+      <h3>Web Application Manager</h3>
+      <p class="emp">Evonik Industries AG, Marl — über Infosys Technologies Ltd. und Hays Professional Solutions GmbH</p>
+      <p class="sum">Rund 40 Webanwendungen (Java, .NET, ColdFusion) mit 72 Serviceinstanzen über Produktions-, Test- und QA-Umgebungen, darunter fünf geschäftskritische Kernanwendungen. Team von sechs Personen, Gesamtportfolio rund 350 Anwendungen.</p>
+      <ul>
+        <li>Migration refaktorierter Java-Webanwendungen nach Azure Kubernetes Service und auf die unternehmenseigene Kubernetes-Plattform.</li>
+        <li>Bewertung und Festlegung der Zielarchitektur des Anwendungsportfolios nach dem 6R-Modell gemeinsam mit Application Ownern und Fachbereichen.</li>
+        <li>Technische Integration neuer Anwendungen sowie Beratung externer Entwicklerteams zu Architektur- und Betriebsvorgaben.</li>
+        <li>Verfügbarkeit, Compliance und Security-Patching über den gesamten Application Lifecycle.</li>
+        <li>Steuerung des externen Betriebsdienstleisters (Offshore-Team, 10–12 Personen); bei Bedarf eigenständige L1/L2-Eingriffe.</li>
+        <li>Kernsysteme: Doxis DMS und i2P Accolade.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="yr">05/2021 – 10/2022</div>
+      <h3>Operations Lead &amp; Delivery Manager</h3>
+      <p class="emp">Ratiodata Romania S.R.L. (Ratiodata Gruppe), Cluj-Napoca — freiberuflich</p>
+      <ul>
+        <li>Technische Übernahme geschäftskritischer Java-Anwendungen auf IBM WebSphere aus dem Bankenumfeld, darunter ein von mehreren Banken genutztes Meldesystem für Geldwäscheverdachtsfälle.</li>
+        <li>Aufbau der vollständigen Betriebsdokumentation für zuvor undokumentierte Systeme.</li>
+        <li>Steuerung der Transition entlang des Leistungsscheins sowie Aufbau der Leistungserbringung im Managed-Service-Modell.</li>
+        <li>Delivery-Verantwortung für zwei Entwicklungsprojekte mit 22–24 Entwicklern: Interhyp (Ablösung eines Java-Monolithen durch Microservices mit Angular-Frontend) und Fressnapf (Logistikplattform).</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="yr">07/2019 – 04/2021</div>
+      <h3>Operations Engineer &amp; Proxy Product Owner</h3>
+      <p class="emp">Counsel Group Frankfurt — Nearshore-Delivery für die BMW Group, freiberuflich</p>
+      <ul>
+        <li>Betrieb der zentralen CMDB der BMW Group auf Basis von FNT Command mit rund 100 Schnittstellen zu angebundenen IT-Systemen.</li>
+        <li>Als Proxy Product Owner verantwortlich für die auf IBM Integration Bus basierende S-BUS-Integrationsplattform — Datenbereitstellung über SOAP und REST sowie über ein grafisches Abfrage-Frontend in Oracle APEX.</li>
+        <li>Automatisierte Datenaufbereitungsstrecken, die CMDB-Daten in kundenspezifische Datensätze überführen.</li>
+        <li>Umsetzung der Berechtigungs- und Rollentrennung im Rahmen des konzernweiten ROMA-Projekts zur strikten Mandantentrennung.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="yr">04/2015 – 07/2019</div>
+      <h3>Middleware Engineer / Operations Engineer</h3>
+      <p class="emp">IBM Rumänien — zunächst über einen Subunternehmer, ab 06/2017 direkt angestellt</p>
+      <p class="sum">Betrieb des IBM Insurance Service Hub (ISH) — zentrale Austauschplattform für die elektronische Rechnungsabwicklung zwischen Abrechnungsdienstleistern und privaten Krankenversicherern in Deutschland.</p>
+      <ul>
+        <li>Java-EE-Anwendungssuite auf IBM WebSphere unter AIX mit DB2-Datenbanken über DEV, TEST, QA und PROD.</li>
+        <li>Betrieb der vorgelagerten HAProxy-Reverse-Proxies sowie eines MQTT-Gateways für die Anbindung der mobilen Endanwender-Apps.</li>
+        <li>Asynchrone Verarbeitungsstrecken über JMS und IBM MQ inklusive Push-Benachrichtigungen via Google Firebase.</li>
+        <li>Systemüberwachung, Fehleranalyse, Performance-Tuning, Updates und Upgrades; 24/7-Betriebsunterstützung.</li>
+        <li>Zuvor: 2nd-Level-Support und Administration der Lotus Notes/Domino-Umgebungen für Versicherungsunternehmen der Generali-Gruppe.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="yr">2007 – 04/2015</div>
+      <h3>Inhaber und IT-Dienstleister</h3>
+      <p class="emp">STIMI Company, Brașov</p>
+      <ul>
+        <li>Planung, Aufbau und Betrieb kompletter IT-Infrastrukturen für kleine und mittelständische Unternehmen — von Netzwerk, Serverraum und Rack-Aufbau bis zum laufenden Betrieb.</li>
+        <li>Linux und Windows Small Business Server: Fileserver, Mailserver, Firewall, Proxy, VPN sowie Backup- und Restore-Konzepte.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="yr">2006 – 2007</div>
+      <h3>IT Operations Manager</h3>
+      <p class="emp">Biris Goran SCA, Bukarest</p>
+      <ul>
+        <li>Vollständiger Greenfield-Aufbau der IT-Infrastruktur einer neu gegründeten Anwaltskanzlei; Begleitung des Wachstums von 50 auf über 70 Mitarbeitende.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="yr">2004 – 2005</div>
+      <h3>IT Operations Manager</h3>
+      <p class="emp">Haarmann Hemmelrath (heute Forvis Mazars), Bukarest</p>
+      <ul>
+        <li>Gesamtverantwortung für die IT einer internationalen Kanzlei: Mailsystem, Netware-Fileserver, User-Management, Backup, Firewall sowie die VPN-Anbindung an den deutschen Standort.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="yr">10/2000 – 2004</div>
+      <h3>Support Engineer (L1/L2)</h3>
+      <p class="emp">Haarmann Hemmelrath, München — Teilzeit neben dem Studium</p>
+      <ul>
+        <li>Unterstützung des Lotus Notes/Domino-Teams beim Betrieb des unternehmensweiten E-Mail-Systems für 1.300 Mitarbeitende an 21 Standorten weltweit.</li>
+      </ul>
+    </div>
+
+  </div>
+</div></section>
+
+<section id="zertifikate"><div class="wrap">
+  <h2>Zertifikate</h2>
+  <div class="certs">
+    <div class="cert"><b>Cloud Business Expert IHK</b><span>IHK Akademie München und Oberbayern · 09/2026</span></div>
+    <div class="cert"><b>IT-Administrator IHK</b><span>IHK Akademie München und Oberbayern · 08/2026</span></div>
+    <div class="cert aws"><b>AWS Certified Cloud Practitioner</b><span>Amazon Web Services · in Vorbereitung</span></div>
+    <div class="cert net"><b>CCNA</b><span>Cisco Certified Network Associate · 2012</span></div>
+    <div class="cert state"><b>Administrator für Rechnernetze</b><span>Staatlich anerkannte Qualifikation (ANC) · 2015</span></div>
+  </div>
+  <h3 style="font-size:15px;margin:34px 0 0">Weiterbildungen &amp; Kurse</h3>
+  <ul class="courses">
+    <li>Qualifizierung für IT- und KI-gestützte Berufe — Syntax GmbH, Berlin, 03–08/2026, 1.200 Unterrichtseinheiten (Technische Administration und Webentwicklung; DevOps, Automatisierung und AWS Cloud)</li>
+    <li>DB2 LUW 11.1: New Features and Database Migration — LearnQuest, 2017</li>
+    <li>DB2 10 for LUW: Basic Administration — LearnQuest, 2017</li>
+    <li>CCNP ROUTE: Implementing IP Routing — Cisco Networking Academy, 2013</li>
+    <li>LPIC-1 Linux-Administration — Linux Professional Institute Academy, 2013</li>
+    <li>CCNA-Kursreihe (Routing Protocols, LAN Switching &amp; Wireless, Accessing the WAN) — Cisco Networking Academy</li>
+  </ul>
+
+  <h2 style="margin:52px 0 22px">Sprachen</h2>
+  <ul class="langs">
+    <li><b>Deutsch</b><span>Fließend (C1)</span></li>
+    <li><b>Englisch</b><span>Fließend (C1)</span></li>
+    <li><b>Rumänisch</b><span>Muttersprache</span></li>
+  </ul>
+</div></section>
+
+<section id="kontakt"><div class="wrap">
+  <h2>Kontakt</h2>
+  <p class="lede" style="margin:0 0 30px">Offen für Positionen in Application Operations, Application Management und Cloud Transformation.</p>
+  <div class="ct">
+    <div><span>E-Mail</span><a href="mailto:s.iordache@gmail.com">s.iordache@gmail.com</a></div>
+    <div><span>Telefon</span><a href="tel:+4915753231065">+49 1575 3231065</a></div>
+    <div><span>Standort</span><b>90419 Nürnberg</b></div>
+    <div><span>LinkedIn</span><a href="https://www.linkedin.com/in/stefan-iordache-32b3a621/">stefan-iordache</a></div>
+    <div><span>Xing</span><a href="https://www.xing.com/profile/Stefan_Iordache04507">Stefan_Iordache</a></div>
+    <div><span>GitHub</span><a href="https://github.com/SteveJordache">SteveJordache</a></div>
+  </div>
+  <a class="btn solid" href="Lebenslauf_Stefan_Iordache.pdf">Lebenslauf herunterladen</a>
+</div></section>
+
+<footer><div class="wrap">© 2026 Stefan Iordache · Senior Application Manager, Nürnberg</div></footer>
+
+</body>
+</html>
